@@ -1,0 +1,29 @@
+{
+  "name": "FastKey",
+  "productName": "FastKey",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "ISC",
+  "author": "Louis Borsu",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager ./ --platform=darwin,linux,win32 --arch=x64 --icon=./icon.icns --overwrite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satblip/fastkey-software.git"
+  },
+  "bugs": {
+    "url": "https://github.com/satblip/fastkey-software/issues"
+  },
+  "homepage": "https://github.com/satblip/fastkey-software#readme",
+  "devDependencies": {
+    "electron-packager": "7.3.0",
+    "electron-prebuilt": "1.2.7",
+    "electron-rebuild": "1.8.2"
+  },
+  "dependencies": {
+    "serialport": "7.0.2",
+    "usb-detection": "3.2.0"
+  }
+}
