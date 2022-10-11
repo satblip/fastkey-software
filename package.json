@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/satblip/fastkey-software#readme",
   "devDependencies": {
-    "electron-packager": "7.3.0",
+    "electron-packager": "16.0.0",
     "electron-prebuilt": "1.2.7",
     "electron-rebuild": "1.8.2"
   },
